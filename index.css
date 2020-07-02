@@ -324,34 +324,34 @@ h2 {
     }
 
     #about-section .col {
-        flex-basis: 100%;
+        flex-basis: 100% !important;
     }
 
     #about-section #quote1 {
-        order: 2;
+        order: 2 !important;
     }
 
     #about-section #quote2 {
-        order: 1;
+        order: 1 !important;
     }
 
 
     #project-section .col {
-        flex-basis: 100%;
-        background-repeat: repeat-x;
+        flex-basis: 100% !important;
+        background-repeat: repeat-x !important;
     }
 
     #contact-section .col {
-        flex-basis: 100%;
+        flex-basis: 100% !important;
     }
 
     #contact-col {
-        order: 2;
+        order: 2 !important;
     }
 
     .goat-img {
-        margin-bottom: 1em;
-        order: 1;
+        margin-bottom: 1em !important;
+        order: 1 !important;
     }
 
 }
