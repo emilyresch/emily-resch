@@ -338,6 +338,7 @@ h2 {
 
     #project-section .col {
         flex-basis: 100%;
+        background-repeat: repeat-x;
     }
 
     #contact-section .col {
