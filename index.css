@@ -316,3 +316,41 @@ h2 {
     width: 100%;
     text-align: center;
 }
+
+
+@media only screen and (max-width: 800px) {
+    body{
+        background-color: black;
+    }
+
+    #about-section .col {
+        flex-basis: 100%;
+    }
+
+    #about-section #quote1 {
+        order: 2;
+    }
+
+    #about-section #quote2 {
+        order: 1;
+    }
+
+
+    #project-section .col {
+        flex-basis: 100%;
+    }
+
+    #contact-section .col {
+        flex-basis: 100%;
+    }
+
+    #contact-col {
+        order: 2;
+    }
+
+    .goat-img {
+        margin-bottom: 1em;
+        order: 1;
+    }
+
+}
