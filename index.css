@@ -1,3 +1,5 @@
+
+
 .nav {
     font-family: 'Space Mono';
     background-color: rgb(92, 87, 88, .8);
@@ -249,7 +251,7 @@ h2 {
     background-image: url("images/IMG_7217.jpeg");
     background-position: top;
     background-size: cover;
-    margin-bottom: 0;
+    margin-bottom: 3em;
 }
 
 #contact-section img {
@@ -319,9 +321,7 @@ h2 {
 
 
 @media only screen and (max-width: 800px) {
-    body{
-        background-color: black;
-    }
+
 
     #about-section .col {
         flex-basis: 100% !important;
@@ -339,6 +339,7 @@ h2 {
     #project-section .col {
         flex-basis: 100% !important;
         background-repeat: repeat-x !important;
+        margin-bottom: 10px;
     }
 
     #contact-section .col {
