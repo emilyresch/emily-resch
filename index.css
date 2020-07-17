@@ -112,7 +112,7 @@ h2 {
 #project-section {
     background-image: url("images/IMG_6858.jpeg");
     margin-bottom: 0;
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
 }
 
