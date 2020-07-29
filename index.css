@@ -344,6 +344,7 @@ h2 {
 
     #contact-section .col {
         flex-basis: 100% !important;
+        margin-bottom: 3em;
     }
 
     #contact-col {
