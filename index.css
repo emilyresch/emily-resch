@@ -245,6 +245,15 @@ h2 {
 }
 
 
+/* INSPO */
+
+#inspo-section {
+    font-family: 'Space Mono';
+    background-image: url("images/IMG_9629.jpeg");
+    margin-bottom: 0;
+    background-size: cover;
+}
+
 /* CONTACT */
 
 #contact-section {
