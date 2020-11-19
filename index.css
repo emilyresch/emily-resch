@@ -277,14 +277,13 @@ h2 {
 }
 
 #art-section img {
-    opacity: 75%;
     width: 100%;
+    border-radius: 10px;
     margin-bottom: 20px;
 }
 
 #art-section img:hover {
-    opacity: 100%;
-    transform: rotate(10deg);
+    border-radius: 20px;
     border: 2px dotted rgb(255, 94, 116);
 }
 
