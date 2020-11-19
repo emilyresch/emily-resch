@@ -214,6 +214,59 @@ h2 {
     background-color: black;
 }
 
+/* VIDEOS */
+
+#video-section {
+    font-family: 'Space Mono';
+    background-color: white;
+    /* margin-bottom: 0; */
+}
+
+#video-section {
+    text-align: center;
+    background-image: url("images/IMG_1459.jpeg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0;
+    color: black;
+    -webkit-text-stroke: 1px rgb(255, 94, 116, .7);
+    font-family: 'Space Mono';
+}
+
+.video-img img {
+    border: 5px solid rgb(255, 94, 116);
+}
+
+.video-desc {
+    margin: 1em;
+    text-align: center;
+    background-color: rgb(255, 232, 242, 0.9);
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 10px;
+}
+
+.video-desc h2 {
+    color: white;
+    text-shadow: 1px 2px 3px rgb(255, 94, 116);
+    margin-top: 1em;
+}
+
+#video-section .row {
+    margin-bottom: 2em;
+}
+
+#video-section .btn {
+    font-family: 'Space Mono';
+    margin: .5em;
+}
+
+#video-section .btn:hover {
+    background-color: black;
+}
+
+
+
+
 
 /* ART */
 
@@ -240,10 +293,13 @@ h2 {
     text-align: center;
 }
 
-#art-section h4:hover {
+#art-section h4 {
     color: rgb(255, 94, 116);
 }
 
+#art-section h4:hover {
+    color: black;
+}
 
 /* INSPO */
 
@@ -344,6 +400,9 @@ h2 {
         order: 1 !important;
     }
 
+    #video-section .col {
+        flex-basis: 100%;
+    }
 
     #project-section .col {
         flex-basis: 100% !important;
